@@ -47,7 +47,16 @@
 		},
 		addLayer : function( imgsArr ){ // Adds image/s to sized camvas and appends it to target 
 			var fragment = document.createDocumentFragment(), // frag. so we only write to DOM once
+				imgsLength;
+				
+			if(imgsArr instanceof Array){
 				imgsLength = imgsArr.length;
+			}
+			else{
+				imgsArr = [imgsArr];
+				imgsLength = imgsArr.length;
+			}
+				
 			
 			while(imgsLength--){ // loops through all images past, adding each to its own canvas
 				var img = imgsArr[imgsLength][0],
