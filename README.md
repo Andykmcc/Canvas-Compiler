@@ -3,7 +3,9 @@ Canvas-Compiler
 
 *jQuery plugin for modifying and layering images with the canvas.*
 
-This plugin allows you to easily add images to canvas elements. You can then modify their RGB values. Finally flattening all the canvas layers together and outputting a image element with PNG data. 
+This plugin allows you to easily add images to canvas elements. You can then modify their RGB values. Finally flattening all the canvas layers together and outputting an image element using PNG data. 
+
+This plugin was abstracted from the avatar maker on http://www.manyshadesofgay.org/
 
 Example Usage
 --------------
